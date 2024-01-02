@@ -1,0 +1,15 @@
+use_frameworks!
+
+target 'Networking_Example' do
+  pod 'Networking', :path => '../'
+  pod 'SwiftLint'
+  pod 'ObjectMapper', '3.3.0', :inhibit_warnings => true
+  target 'Networking_Tests' do
+    inherit! :search_paths
+
+    pod 'Quick', '~> 2.1.0'
+    pod 'Nimble', '~> 9.0'
+    pod 'KIF'
+    pod 'Mockingjay', :git => 'https://github.com/kylef/Mockingjay.git', :branch => 'master'
+  end
+end

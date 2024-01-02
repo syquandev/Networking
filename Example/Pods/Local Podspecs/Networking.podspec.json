@@ -1,0 +1,28 @@
+{
+  "name": "Networking",
+  "version": "1.0.0",
+  "summary": "A short description of Networking.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/syquandev/Networking",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "syquandev": "syquandev@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/syquandev/Networking.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "12.0",
+    "watchos": "3.0"
+  },
+  "source_files": "Sources/**/*",
+  "dependencies": {
+    "Alamofire": [
+      "~> 5.4.0"
+    ]
+  }
+}

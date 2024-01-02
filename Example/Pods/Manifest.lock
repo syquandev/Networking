@@ -1,0 +1,65 @@
+PODS:
+  - Alamofire (5.4.4)
+  - KIF (3.8.3):
+    - KIF/Core (= 3.8.3)
+  - KIF/Core (3.8.3)
+  - Mockingjay (3.0.0-alpha.1):
+    - Mockingjay/Core (= 3.0.0-alpha.1)
+    - Mockingjay/XCTest (= 3.0.0-alpha.1)
+  - Mockingjay/Core (3.0.0-alpha.1):
+    - URITemplate (~> 3.0)
+  - Mockingjay/XCTest (3.0.0-alpha.1):
+    - Mockingjay/Core
+  - Networking (1.0.0):
+    - Alamofire (~> 5.4.0)
+  - Nimble (9.2.1)
+  - ObjectMapper (3.3.0)
+  - Quick (2.1.0)
+  - SwiftLint (0.51.0)
+  - URITemplate (3.0.1)
+
+DEPENDENCIES:
+  - KIF
+  - Mockingjay (from `https://github.com/kylef/Mockingjay.git`, branch `master`)
+  - Networking (from `../`)
+  - Nimble (~> 9.0)
+  - ObjectMapper (= 3.3.0)
+  - Quick (~> 2.1.0)
+  - SwiftLint
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - KIF
+    - Nimble
+    - ObjectMapper
+    - Quick
+    - SwiftLint
+    - URITemplate
+
+EXTERNAL SOURCES:
+  Mockingjay:
+    :branch: master
+    :git: https://github.com/kylef/Mockingjay.git
+  Networking:
+    :path: "../"
+
+CHECKOUT OPTIONS:
+  Mockingjay:
+    :commit: b88c9dce2b7561cccbf35e2882b3c71a2efa387a
+    :git: https://github.com/kylef/Mockingjay.git
+
+SPEC CHECKSUMS:
+  Alamofire: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
+  KIF: bf82151c1b5d960b526a043e35b4e339d95390ba
+  Mockingjay: 97656c6f59879923976a0a52ef09da45756cca82
+  Networking: adaec6d1494450242644de14477f425c5d922ab5
+  Nimble: e7e615c0335ee4bf5b0d786685451e62746117d5
+  ObjectMapper: b612bf8c8e99c4dc0bb6013a51f7c27966ed5da9
+  Quick: 4be43f6634acfa727dd106bdf3929ce125ffa79d
+  SwiftLint: 1b7561918a19e23bfed960e40759086e70f4dba5
+  URITemplate: 5f5a79f3e384884102c4e6b3325d159c20a8035a
+
+PODFILE CHECKSUM: 0880ca633714a06de61ea7ca115fad3071e75166
+
+COCOAPODS: 1.11.3
